@@ -19,7 +19,7 @@ function help {
     echo "Following configuration is needed for the creation of a new gateway"
     echo "-p | --port nnnn - select the udp port to be used for this gateway-rs"
     echo "-z | --zone XXXXX - select the zone"
-    echo "-o | --owner xxxxx..xxxx - Owner and Payer waller for creating the registration transaction reference"
+    echo "-o | --owner xxxxx..xxxx - Owner and Payer wallet for creating the registration transaction reference"
     echo "-u | --update true/false - Enable gateway rs auto-update default true"
     exit 0
 }
